@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+}
+
+h3,
+h5 {
+  margin: 0px;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background: rgb(3, 0, 42);
+  background: linear-gradient(
+    188deg,
+    rgba(3, 0, 42, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
